@@ -71,6 +71,18 @@ DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
 SECRET=<YOUR_SECRET_WORD>
 FIRST_SUPERUSER_EMAIL=<SUPERUSER_EMAIL>
 FIRST_SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>
+
+EMAIL=<USER_EMAIL>
+TYPE=service_account
+PROJECT_ID=<PROJECT_ID>
+PRIVATE_KEY_ID=<PRIVATE_KEY_ID>
+PRIVATE_KEY=<PRIVATE_KEY>
+CLIENT_EMAIL=<CLIENT_EMAIL>
+CLIENT_ID=<CLIENT_ID>
+AUTH_URI=https://accounts.google.com/o/oauth2/auth
+TOKEN_URI=https://oauth2.googleapis.com/token
+AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+CLIENT_X509_CERT_URL=<CLIENT_ID>
 ```
 
 5. Выполнить миграции:
